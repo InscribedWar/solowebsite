@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #08080c;
+}
+h1 {
+  color: white;
+  text-shadow: 1px 1px 5px white;
+}
+h2 {
+  color: white;
+  text-shadow: 1px 1px 5px white;
+}
+p {
+  color: white;
+}
+nav a{
+  text-decoration: none;
+}
+nav button:active {
+  background-color: #e0d8c5;
+}
+nav button:hover {
+  background-color: #e0d8c5;
+}
+div{
+  margin-bottom: 2%;
+}
+nav button {
+  font-size: 120%;
+  background-color: #CDC5B4;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+ }
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navDiv {
+  position: sticky;
+  top: 0px;
+  border: solid 1px #fafaff;
+  border-top: none;
+  border-radius: 2px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #1a0d3b;
+  box-shadow: 0px 0px 3px 1px #fafaff;
+}
+.imgbox{
+  display: flex;
+  justify-content: center;
+}
+.imgbox img {
+  width: 25%;
+  border: solid 1px white;
+  box-shadow: 1px 1px 5px 3px white;
+  padding: 1%;
+}
+.textbox{
+  width: 30%;
+}
+.textbox p {
+  margin-left: 20%;
+  width: 80%;
+}
+.textbox h2 {
+  margin-right: 60%;
+  width: 100%;
+}
+.textcontainer {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff09;
+}
+form {
+  color: white;
+}
+form div {
+  margin: 10%;
+}
+.formLabel {
+  display: flex;
+  justify-content: space-around;
+}
+.formCheck {
+  display: flex;
+  justify-content: space-around;
+}
+ul a{
+  text-decoration: none;
+  color: white;
+  font-size: 160%;
+}
+ul li {
+  margin-bottom: 10%;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: solid 1px white;
+  padding: 1%;
+  box-shadow: 0px 0px 5px 1px white;
+}
